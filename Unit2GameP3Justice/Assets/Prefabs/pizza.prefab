@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 4624829119621910185}
   - component: {fileID: 2122213974563910812}
   - component: {fileID: 2186447527857311764}
-  - component: {fileID: 4068896716927784711}
+  - component: {fileID: 1786398368451694466}
   - component: {fileID: 6066456381148668995}
   - component: {fileID: -280823477005550200}
   - component: {fileID: -1125760245057829303}
+  - component: {fileID: 924686752138237372}
   m_Layer: 0
   m_Name: pizza
   m_TagString: Untagged
@@ -87,7 +88,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4068896716927784711
+--- !u!114 &1786398368451694466
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,8 +132,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.4597009, y: 0.13234863, z: 0.55363166}
-  m_Center: {x: 0, y: 0, z: -0.0000001937151}
+  m_Size: {x: 0.5735993, y: 0.13234863, z: 0.62071466}
+  m_Center: {x: 0.0007208884, y: 0, z: 0.0060749054}
 --- !u!54 &-1125760245057829303
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -160,3 +161,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &924686752138237372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067029571504268435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afd7337ba2cd3f4da7156a347948c0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
